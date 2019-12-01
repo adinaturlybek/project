@@ -3,9 +3,27 @@
     <head>
         <style>
           button{
-  background-color:pink;
+  background-color:springgreen;
   color:white;
 }
+          .mainbutton{
+            display: inline;
+            vertical-align: top;
+            padding: 8px 30px;
+            border: 3px solid white;
+            font-size: 14px;
+            font-weight: 700;
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+            transition: background 0.5s linear, color 0.5s linear;
+          }
+
+          .mainbutton:hover {
+            background-color: white;
+            color: black;
+          }
+
           .mn1{
             float: right;
             padding: 15px;
@@ -15,36 +33,75 @@
           }
           #logo{
             float: left;
+            padding: 1px;
           }
           h1 p button{
             position:absolute;
             top: 200px;
           }
           .mn2{
-            background: url("sakura.jpg");
+            background: url("main.jpg");
             width: 100%;
             height: 500px;
           }
           .text{
-            padding-top:250px;
+            padding-top:80px;
             text-align: center;
             color: white;
           }
-          .next{
-            
+          hr{
+            width: 500px;
+            border: 2px solid orangered;
           }
+            .del{
+                display: flex;
+                justify-content: center;
+            }
+            .del1{
+                width: 200px;
+                display: inline-block;
+            }
+            .del2{
+                display: inline-block;
+                width: 200px;
+                margin-left: 50px;
+            }
+            .del3{
+                display: inline-block;
+                width: 200px;
+                margin-left: 50px;
+            }
+            .delpng{
+                margin: 0 60px;
+            }
+            .delp{
+                margin: 30px 45px;
+                font-size: 20px;
+                width: 60%;
+            }
+            .order{
+                
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 700px;
+                background: linear-gradient(rgba(0,0,0,0.7),
+         rgba(0,0,0,0.7)),
+          url('dev.jpg');
+            }
+            
+            
         </style>
         </head>
         <body>
-          <span id="logo"><img src="logo.jpg" width="60px" height="60px"></span>
+          <span id="logo"><img src="logog.png" width="90%"></span>
             <title>Sakura</title>
                 <div class="mn1">
-                  <span>The main</span> 
-                  <span>Why we?</span>
-                  <span>Teachers</span>
-                  <span>Online recording</span>
-                  <span>Contacts</span>
-                  <span>Address</span>
+                    <span><a href="">The main</a></span>
+                    <span><a href="">Why we?</a></span>
+                  <span><a href="">Teachers</a></span>
+                  <span><a href="">Online recording</a></span>
+                  <span><a href="">Contacts</a></span>
+                  <span><a href="">Address</a></span>
               </div>
               <br>
               <br>
@@ -52,16 +109,43 @@
               <br>
               <div class="mn2">
                <div class="text">
-                  <h1>Sakura</h1>
-                  <p>Start speaking japanese</p>
-                  <p>First lesson for free</p>
-                    <button>Sign up for a lesson</button>
+                  <i><h1 style="font-size: 60px;  background-color: #77d5ee; width: 240px; border-radius: 20px; margin-left:580px; color:#f6f3eb;">Sakura</h1></i>
+                  <h2 style="font-size: 50px; background-color: #77d5ee; width: 570px; border-radius: 20px; margin-left: 420px; color: #f6f3eb;">Start speaking japanese</h2>
+                  <p style="font-size: 45px;  background-color: #77d5ee; width: 410px; border-radius: 20px; margin-left: 490px; color: #f6f3eb;">First lesson for free</p>
+                    <button class="mainbutton">Sign up for a lesson</button>
                </div>
               </div>
-
+           
               <div class="next">
-                <h2>KBIviy</h2>
-
+                <h1 style="text-align: center; font-size: 45px;">Learn the languages online with us</h1>
+                
               </div>
+        
+            <div class="del">
+              <div class="del1">
+                 <img src="images.png" alt="" class="delpng" width="50px" height="50px">
+                 <p class="delp">The best teachers with teaching experience from five years</p>
+              </div>
+              <div class="del2">
+
+<img src="doc.png" class="delpng" alt="" width="
+50px" height="50px">
+                 <p class="delp">Permanent control system for assimilation of material</p>
+              </div>
+              <div class="del3">
+                 <img src="comp.png" class="delpng" alt="" width="50px" height="50px">
+                 <p class="delp">Oppottunity to study online 24/7</p>
+              </div>
+            </div>
+            <div class="order">
+                <div class="second_order">
+                    <div class="free">
+                        <p>Take a free trial lesson</p>
+                    </div>
+                    <div class="requirements"> 
+                    </div>
+                </div>
+            </div>
+            
         </body>
-    </html
+</html>
